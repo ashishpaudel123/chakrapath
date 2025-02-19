@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+.trending p{
+    font-size: 30px;
+    padding: 10px 0px;
+    color:rgb(181, 23, 23);
+    font-weight: bold;
+}
+.trending a{
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+.main-news small{
+    font-weight: bold;
+    color: gray;
+}
+.top-main-news small{
+    padding: 5px 0px;
+    color:rgb(181, 23, 23);
+    font-weight: bold;
+}
+.h{
+    height: 180px;
+    object-fit: cover;
+}
+.h120{
+    height: 120px;
+    object-fit: cover;
+    width: 100%;
+}
+.h730{
+    height: 730px;
+    object-fit: cover;
+    width: 100%;
+}
+.heading-1{
+    position: relative; 
+    text-align: center;
+    font-weight: bold;
+    }
+.heading-1::after{ 
+    width: 100%; height: 5px; position: absolute; top: 50%; display: block;
+    border-top: 3px solid red; left: 0; content: '';
+    }
+.heading-1 span{ 
+    background: #fff; padding: 10px; position: relative; z-index: 22;
+}
+#heading-2{
+    position: relative; 
+    text-align: center;
+    }
+#heading-2::after{ 
+    width: 100%; height: 5px; position: absolute; top: 50%; display: block;
+    border-top: 3px solid #fff; left: 0; content: '';
+    }
+#heading-2 span{ 
+    background:#272961; padding: 10px; position: relative; z-index: 22;
+}
+#heading-3{
+    position: relative; 
+    text-align: center;
+    }
+#heading-3::after{ 
+    width: 100%; height: 5px; position: absolute; top: 50%; display: block;
+    border-top: 3px solid #fff; left: 0; content: '';
+    }
+#heading-3 span{ 
+    background:#610202; padding: 10px; position: relative; z-index: 22;
+}
+.politics-news img{
+    padding-left: 0px !important;
+}
+.artha{
+    background-color: #272961;
+}
+.own{
+    background:#272961;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, blue 0%, white 50%, blue 100%);
+
+}
+.bg-blue{
+    background-color: #272961;
+}
+.ov{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(90deg,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+.bg-610202{
+    background-color: #610202;
+}
+img{
+    object-fit: cover;
+    overflow: hidden;
+}
+footer{
+    background-color: #610202;
+}
+.fo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+footer i{
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.last li{
+    list-style: none;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.last ul:nth-child(1){
+    padding-left: 0px !important;
+}

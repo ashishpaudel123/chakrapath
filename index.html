@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chakkrapath demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+    <div class="container">
+        <img class="img-fluid" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/prabhu-advt-Final.webp?w=1250&ssl=1" alt="">
+        <div class="logo text-center my-3">
+        <img src="https://chakrapath.com/wp-content/themes/chakrapath/img/logo.png" alt="">
+        </div>
+        <nav class="navbar bg-body-tertiary navbar-expand-lg">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 fw-bold">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">गृहपृष्‍ठ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">राजनीति</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">प्रशासन</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">समाज</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">अपराध</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">बिचार</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">अन्तरवार्ता</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">अर्थ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">खेल</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">साहित्य</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">सम्पादकीय
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">सूचना प्रविधि
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">स्वास्थ्य</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        अन्य
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">विश्व</a></li>
+                        <li><a class="dropdown-item" href="#">समसामयिक</a></li>
+                        <li><a class="dropdown-item" href="#">विविध</a></li>
+                        <li><a class="dropdown-item" href="#">रोचक खबर</a></li>
+                        <li><a class="dropdown-item" href="#">प्रशासन</a></li>
+                        <li><a class="dropdown-item" href="#">चक्रपथ संवाद</a></li>
+                        <li><a class="dropdown-item" href="#">चक्रपथ चिरफार</a></li>
+                        <li><a class="dropdown-item" href="#">गाउँ / नगर</a></li>
+                        <li><a class="dropdown-item" href="#">अध्यात्म/दर्शन</a></li>
+                        <li><a class="dropdown-item" href="#">ग्यालरी</a></li> 
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="py-4">
+        <div class="text-center">
+            <img class="img-fluid" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/29525000.jpg?w=800&ssl=1" alt="">
+            <article class="border p-5 my-3">
+                <h1 class="fw-bold pb-3">पर्यटन उद्योगको विकासका लागि हरसम्भव सहयोग हुने प्रधानमन्त्रीको प्रतिबद्धता</h1>
+                <img class="img-fluid" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-15-at-13.01.46_04567794-scaled.jpg?fit=2560%2C1706&ssl=1" alt="">
+                <p class="py-3">काठमाडौँ । प्रधानमन्त्री केपी शर्मा ओलीले स्थानीय सुकेधारामा निर्माण भएको मर्क्युर होटेलको आज उद्घाटन गर्दै पर्यटन उद्योगको विकासका लागि सरकारका तर्फबाट हरसम्भव सहयोग हुने प्रतिबद्धता व्यक्त गर्नुभयो । होटेल व्यवसायका क्षेत्रमा विश्वव्यापी सञ्जाल बनाएको अक्योर</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="py-4">
+        <div class="text-center">
+            <img class="img-fluid" src="https://chakrapath.com/wp-content/uploads/2024/12/1000-x-100-1-768x77.gif" alt="">
+            <article class="border p-5 my-3">
+                <h1 class="fw-bold pb-3">अध्यादेशबाट निजी क्षेत्र उत्साहित</h1>
+                <h5>अर्थतन्त्रलाई सबल बनाउन सरकारले ध्यान दिएको छ : प्रधानमन्त्री</h5>
+                <img src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/08/logo.jpg?resize=53%2C64&ssl=1" alt="">
+                <span>चक्रपथ</span>
+                <img class="img-fluid" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/1111222333.jpg?fit=1302%2C743&ssl=1" alt="">
+                <p class="py-3">काठमाडौँ । प्रधानमन्त्री केपी शर्मा ओलीले स्थानीय सुकेधारामा निर्माण भएको मर्क्युर होटेलको आज उद्घाटन गर्दै पर्यटन उद्योगको विकासका लागि सरकारका तर्फबाट हरसम्भव सहयोग हुने प्रतिबद्धता व्यक्त गर्नुभयो । होटेल व्यवसायका क्षेत्रमा विश्वव्यापी सञ्जाल बनाएको अक्योर</p>
+                <img class="img-fluid" src="https://chakrapath.com/wp-content/uploads/2024/12/610-4-1-GIF-Laxmi-sunrise-TVc_-720x80px.gif" alt="">
+            </article>
+        </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="main-news col-lg-8">
+                <small>मुख्य समाचार</small>
+                <h1 class="fw-bold">काठमाडौं महानगरपालिकाले प्रदेश सरकारलाई राजश्वबाट उठेको ४० प्रतिशत रकम नबुझाएको कानूनमन्त्री लामिछानेको गुनासो</h1>
+                <img class="img-fluid" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/1736928090-Mn7t9.jpg?fit=1200%2C715&ssl=1" alt="">
+                <p class="py-3">काठमाडौँ । वागमती प्रदेश सरकारका आन्तरिक मामिला तथा कानूनमन्त्री सुरजचन्द्र लामिछानेले काठमाडौं महानगरपालिकाले प्रदेश सरकारलाई राजश्वबाट उठेको ४० प्रतिशत रकम नबुझाएको गुनासो गर्नुभएको छ । बुधवार</p>
+                <small>चक्रपथ|२ घण्टा अगाडि</small>
+            </div>
+            <div class="trending col-lg-4 border-top border-start">
+                <p>भर्खरै</p>
+                <ul>
+                    <li class="py-2 border-bottom">
+                        <small>१ मिनेट अगाडि
+                            <span class="border-start">अर्थ</span></small>
+                            <a class="d-block text-decoration-none" href="">नेप्से परिसूचकमा झिनो अङ्कको सुधार</a>
+                    </li>
+                    <li class="py-2 border-bottom">
+                        <small>१ मिनेट अगाडि
+                            <span class="border-start">अर्थ</span></small>
+                            <a class="d-block text-decoration-none" href="">राधिका शाक्यले देखेको पार्टीको हविगत</a>
+                    </li>
+                    <li class="py-2 border-bottom">
+                        <small>१ मिनेट अगाडि
+                            <span class="border-start">अर्थ</span></small>
+                            <a class="d-block text-decoration-none" href="">संसदीय समितिले कानूनको उत्तरविधायिकी परीक्षण (पिएसएल) बारे अन्तरक्रिया कार्यक्रम आयोजना गर्ने</a>
+                    </li>
+                    <li class="py-2 border-bottom">
+                        <small>१ मिनेट अगाडि
+                            <span class="border-start">अर्थ</span></small>
+                            <a class="d-block text-decoration-none" href="">समाजवादी मोर्चाको बैठक शुरु</a>
+                    </li>
+                    <li class="py-2 border-bottom">
+                        <small>१ मिनेट अगाडि
+                            <span class="border-start">अर्थ</span></small>
+                            <a class="d-block text-decoration-none" href="">नेपाल दाेस्राे अभ्यास खेलमा अमेरिकासँग पराजित</a>
+                    </li>
+                    <li class="py-2 border-bottom">
+                        <small>१ मिनेट अगाडि
+                            <span class="border-start">अर्थ</span></small>
+                            <a class="d-block text-decoration-none" href="">अभियान्ता आशिका तामाङ पक्राउ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-2"> 
+        <div class="row border-top py-4 top-main-news">
+            <div class="col-lg-3">
+                <img class="w-100 h" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/08/20234045844_raktachandan.jpg?fit=%2C&ssl=1" alt="">
+                <small class="d-block">मुख्य समाचार</small>
+                <h5 class="fw-bold py-2">काँडाघारीबाट ४ क्विन्टल बढी रक्तचन्दन बरामद</h5>
+            </div>
+            <div class="col-lg-3">
+                <img class="w-100 h" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/GD_KTM__MG_4987.jpg?fit=2400%2C1600&ssl=1" alt="">
+                <small class="d-block">मुख्य समाचार</small>
+                <h5 class="fw-bold py-2">काँडाघारीबाट ४ क्विन्टल बढी रक्तचन्दन बरामद</h5>
+            </div>
+            <div class="col-lg-3">
+                <img class="w-100 h" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/12/rabi-lamechane-1-1.jpg?fit=1280%2C720&ssl=1" alt="">
+                <small class="d-block">मुख्य समाचार</small>
+                <h5 class="fw-bold py-2">काँडाघारीबाट ४ क्विन्टल बढी रक्तचन्दन बरामद</h5>
+            </div>
+            <div class="col-lg-3">
+                <img class="w-100 h" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/rabi-lamichhane.png?fit=1025%2C439&ssl=1" alt="">
+                <small class="d-block">मुख्य समाचार</small>
+                <h5 class="fw-bold py-2">काँडाघारीबाट ४ क्विन्टल बढी रक्तचन्दन बरामद</h5>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+        <img class="img-fluid" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/12/Prabhu-Bank-1230x120-PX-1-1.webp?w=2048&ssl=1" alt="">
+        </div>
+    </section>
+<!-- rajniti start -->
+    <section class="container my-3">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1 class="heading-1 py-5"><span>राजनीति</span></h1> 
+            <div class="row border-bottom">
+              <div class="col-3">
+                <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/ramchandra-paudel-president-768x384-1.jpg?resize=300%2C165&ssl=1" alt="">
+              </div>
+              <div class="col-9 py-2">
+                <h4 class="fw-bold py-1">राष्ट्रपतिद्वारा तीन जना गैरआवासीय राजदूत नियुक्त</h4>
+                <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+              </div>
+            </div>
+
+            <div class="row border-bottom py-2">
+              <div class="col-3 py-2">
+                <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/GD_KTM__MG_4987.jpg?resize=300%2C165&ssl=1" alt="">
+              </div>
+              <div class="col-9 py-2">
+                <h4 class="fw-bold py-1">राष्ट्रपतिद्वारा तीन जना गैरआवासीय राजदूत नियुक्त</h4>
+                <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+              </div>
+            </div>
+
+            <div class="row border-bottom py-2">
+              <div class="col-3 py-2">
+                <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/PSP_6483-1536x1024-1-1.jpg?resize=300%2C165&ssl=1" alt="">
+              </div>
+              <div class="col-9 py-2">
+                <h4 class="fw-bold py-1">जाजरकोट भूकम्पको क्षतिको विस्तृत आँकलन (डिडिए) माघभित्र गरिसक्ने गृहमन्त्री लेखकको प्रतिवद्धता</h4>
+                <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+              </div>
+            </div>
+
+            <div class="row border-bottom py-2">
+              <div class="col-3 py-2">
+                <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/PSP_6483-1536x1024-1-1.jpg?resize=300%2C165&ssl=1" alt="">
+              </div>
+              <div class="col-9 py-2">
+                <h4 class="fw-bold py-1">सुशासन र विकासका लागि जरुरी भएकाले अध्यादेशहरु ल्याइएको हो : प्रधानमन्त्री</h4>
+                <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+              </div>
+            </div>
+
+            <div class="row border-bottom py-2">
+              <div class="col-3 py-2">
+                <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/12/rabi-lamechane-1-1.jpg?fit=1280%2C720&ssl=1" alt="">
+              </div>
+              <div class="col-9 py-2">
+                <h4 class="fw-bold py-1">भूकम्पीय जोखिम न्युनिकरणका लागि सुरक्षित भौतिक संरचना निर्माण गर्नुको विकल्प छैनः उपप्रधानमन्त्री सिंह</h4>
+                <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 ps-2 py-2 border-start border-top">
+            <img class="w-100 h730" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-05-at-15.31.23_309a346c.jpg?w=625&ssl=1" alt="">
+          </div>
+        </div>
+        <div class="ads text-center my-4">
+          <img class="img-fluid" src="https://chakrapath.com/wp-content/uploads/2024/12/noc-2080-768x89.gif" alt="">
+        </div>
+    </section>
+<!-- rajniti end -->
+
+<!-- artha start -->
+    <section>
+      <div class="container py-3 bg-blue">
+        <div class="own text-light">
+          <div id="heading-2">
+            <h1 id="heading-2 py-5"><span class="fw-bold">अर्थ / वाणिज्य</span></h1>
+          </div>
+        </div>
+        <div class="row p-0">
+          <div class="col-lg-8 p-0 position-relative">
+            <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/IMG_6667-1-scaled.jpg?fit=2560%2C1707&ssl=1" alt="">
+            <h3 class="fw-bold ov position-absolute bottom-0 px-3 mb-0">वाणिज्य बैंकहरुले तोके माघ महिनामा लिने ब्याजदर</h3>
+          </div>
+          <div class="col-lg-4 ps-4">
+            <div class="col border-bottom text-light py-2">
+              <h4 class="fw-bold">दुई कम्पनीलाई साधारण शेयर बिक्रीको अनुमति</h4>
+              <p>काठमाडौँ। लामो समयदेखि रोकिदै आएको साधारण शेयर निष्काशनका लागि अनुमति दिने प्रक्रिया शुरु भएको छ । नियामक निकाय नेपाल धितोपत्र</p>
+            </div>
+            <div class="col border-bottom text-light py-4">
+              <h4 class="fw-bold">दुई कम्पनीलाई साधारण शेयर बिक्रीको अनुमति</h4>
+              <p>काठमाडौँ। लामो समयदेखि रोकिदै आएको साधारण शेयर निष्काशनका लागि अनुमति दिने प्रक्रिया शुरु भएको छ । नियामक निकाय नेपाल धितोपत्र</p>
+            </div>
+            <div class="col border-bottom text-light py-4">
+              <h4 class="fw-bold">दुई कम्पनीलाई साधारण शेयर बिक्रीको अनुमति</h4>
+              <p>काठमाडौँ। लामो समयदेखि रोकिदै आएको साधारण शेयर निष्काशनका लागि अनुमति दिने प्रक्रिया शुरु भएको छ । नियामक निकाय नेपाल धितोपत्र</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- artha end -->
+
+    <section>
+        <div class="text-center my-3">
+          <img class="img-fluid" src="https://chakrapath.com/wp-content/uploads/2024/10/Gif-NTC-1415-1140-x110-pxl.gif" alt="">
+      </div>
+    </section>
+
+<!-- समाज start -->
+    <section class="container my-3">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="heading-1 py-5"><span>समाज</span></h1> 
+          <div class="row border-bottom">
+            <div class="col-3">
+              <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/ramchandra-paudel-president-768x384-1.jpg?resize=300%2C165&ssl=1" alt="">
+            </div>
+            <div class="col-9 py-2">
+              <h4 class="fw-bold py-1">राष्ट्रपतिद्वारा तीन जना गैरआवासीय राजदूत नियुक्त</h4>
+              <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+            </div>
+          </div>
+
+          <div class="row border-bottom py-2">
+            <div class="col-3 py-2">
+              <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/GD_KTM__MG_4987.jpg?resize=300%2C165&ssl=1" alt="">
+            </div>
+            <div class="col-9 py-2">
+              <h4 class="fw-bold py-1">राष्ट्रपतिद्वारा तीन जना गैरआवासीय राजदूत नियुक्त</h4>
+              <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+            </div>
+          </div>
+
+          <div class="row border-bottom py-2">
+            <div class="col-3 py-2">
+              <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/PSP_6483-1536x1024-1-1.jpg?resize=300%2C165&ssl=1" alt="">
+            </div>
+            <div class="col-9 py-2">
+              <h4 class="fw-bold py-1">जाजरकोट भूकम्पको क्षतिको विस्तृत आँकलन (डिडिए) माघभित्र गरिसक्ने गृहमन्त्री लेखकको प्रतिवद्धता</h4>
+              <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+            </div>
+          </div>
+
+          <div class="row border-bottom py-2">
+            <div class="col-3 py-2">
+              <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/PSP_6483-1536x1024-1-1.jpg?resize=300%2C165&ssl=1" alt="">
+            </div>
+            <div class="col-9 py-2">
+              <h4 class="fw-bold py-1">सुशासन र विकासका लागि जरुरी भएकाले अध्यादेशहरु ल्याइएको हो : प्रधानमन्त्री</h4>
+              <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+            </div>
+          </div>
+
+          <div class="row border-bottom py-2">
+            <div class="col-3 py-2">
+              <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/12/rabi-lamechane-1-1.jpg?fit=1280%2C720&ssl=1" alt="">
+            </div>
+            <div class="col-9 py-2">
+              <h4 class="fw-bold py-1">भूकम्पीय जोखिम न्युनिकरणका लागि सुरक्षित भौतिक संरचना निर्माण गर्नुको विकल्प छैनः उपप्रधानमन्त्री सिंह</h4>
+              <small class="fw-bold d-none d-lg-block">काठमाडौँ । राष्ट्रपति रामचन्द्र पौडेलले तीन देशका लागि गैरआवासीय राजदूत नियुक्त गर्नुभएको छ </small>
+            </div>
+          </div>
+
+        </div>
+        <!-- sampadakiya start -->
+        <div class="col-lg-4 ps-2 my-5 py-3 border-start border-top">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <img class="w-100" height="200px" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/11/Tihar.jpg?resize=300%2C165&ssl=1">
+            </li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black" href="#">तीन करोड नेपालीको मुटु भित्र फक्रिरहेको नेपालको संविधान</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">होस गुमाउँदै काँग्रेस</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">नयाँ वर्ष,नयाँ अठोट, नयाँ सङ्कल्प</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">जनआक्रोशको ख्याल गर</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">ओलीमाथिको निराधार आरोप : व्यवस्था विरोधीको रुन्चे रोदन</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">भूकम्पको क्षतिको आँकलन माघभित्र गरिसक्ने लेखकको प्रतिवद्धता</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">पोखरामा आजदेखि दाइँ महोत्सव</a></li>
+
+          </ul>
+        </div>
+        <!-- sampadakiya end -->
+      </div>
+  </section>
+<!-- समाज end -->
+
+<!-- video start -->
+  <section>
+    <div class="container py-3 bg-610202">
+      <div class="text-light">
+        <div id="heading-3">
+        <h1 id="heading-3 py-2"><span>भिडियो</span></h1> 
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-lg-7 position-relative">
+          <iframe class="w-100 h-100" src="https://www.youtube.com/embed/5KTj6r-urTo" title="राजिव पहाडीको नजरमा भिव रावल || Chakrapath TV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-5 ps-4">
+          <div class="row border-bottom">
+            <div class="col-5 py-2 ps-0">
+              <img class="w-100" src="https://img.youtube.com/vi/nK2kGaOKN-8/mqdefault.jpg" alt="">
+            </div>
+            <div class="col-7 py-2 ps-0">
+              <p class="fw-bold py-1 text-light">राष्ट्रपतिद्वारा तीन जना गैरआवासीय राजदूत नियुक्त</p>
+            </div>
+          </div>
+          <div class="row border-bottom py-2">
+            <div class="col-5 py-2 ps-0">
+              <img class="w-100" src="https://img.youtube.com/vi/5KTj6r-urTo/mqdefault.jpg" alt="">
+            </div>
+            <div class="col-7 py-2">
+              <p class="fw-bold py-1 text-light">
+                भीम रावलको कार्वाही बारे ईश्वर पोखरेलको खुलासा ‘रावलले मन्डी ओडेर घिउँ खान खोजे’ || Chakrapath TV</p>
+            </div>
+          </div>
+          <div class="row border-bottom py-2">
+            <div class="col-5 py-2 ps-0">
+              <img class="w-100" src="https://img.youtube.com/vi/0tKELgfCv-M/mqdefault.jpg" alt="">
+            </div>
+            <div class="col-7 py-2">
+              <p class="fw-bold py-1 text-light">
+                नेपाली क्रिकेटरको NPL अनुभव : अब ओलम्पिक खोल्ने इच्छ्या || Chakrapath TV</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- video end -->
+
+<!-- bichar start -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ps-2 my-5 py-3">
+          <h1 class="heading-1 py-5"><span>बिचार</span></h1> 
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <img class="img-fluid" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-17-at-16.39.04_b349a0be.jpg?fit=1024%2C768&ssl=1" alt="img">
+            </li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black" href="#">तीन करोड नेपालीको मुटु भित्र फक्रिरहेको नेपालको संविधान</a>
+            <p class="p-0 m-0 text-secondary">चक्रपथ</p></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">होस गुमाउँदै काँग्रेस</a><p class="p-0 m-0 text-secondary">चक्रपथ</p></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">नयाँ वर्ष,नयाँ अठोट, नयाँ सङ्कल्प</a><p class="p-0 m-0 text-secondary">चक्रपथ</p></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">जनआक्रोशको ख्याल गर</a><p class="p-0 m-0 text-secondary">चक्रपथ</p></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">ओलीमाथिको निराधार आरोप : व्यवस्था विरोधीको रुन्चे रोदन</a><p class="p-0 m-0 text-secondary">चक्रपथ</p></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6 my-5 py-3">
+          <h1 class="heading-1 py-5"><span>स्वास्थ्य/शिक्षा</span></h1> 
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <img class="img-fluid"src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/Namila-Health-ekai-3.jpg?fit=1024%2C768&ssl=1" alt="img">
+            </li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black" href="#">तीन करोड नेपालीको मुटु भित्र फक्रिरहेको नेपालको संविधान</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">होस गुमाउँदै काँग्रेस</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">नयाँ वर्ष,नयाँ अठोट, नयाँ सङ्कल्प</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">जनआक्रोशको ख्याल गर</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">ओलीमाथिको निराधार आरोप : व्यवस्था विरोधीको रुन्चे रोदन</a></li>
+            <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">भूकम्पको क्षतिको आँकलन माघभित्र गरिसक्ने लेखकको प्रतिवद्धता</a></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </section>
+<!-- bichar end -->
+
+<!-- समसामयिक start -->
+<section class="container my-3">
+  <div class="row">
+    <div class="col-lg-8">
+      <h1 class="heading-1 py-5"><span>समसामयिक</span></h1> 
+      <div class="row border-bottom">
+        <div class="col-3">
+          <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-18-at-15.30.31_96eb7fee.jpg?resize=300%2C165&ssl=1" alt="">
+        </div>
+        <div class="col-9 py-2">
+          <h4 class="fw-bold py-1">चिया बेचेरै मासिक एक लाख कमाउँछन् विनोद</h4>
+          <small class="fw-bold d-none d-lg-block">बरहथवा (सर्लाही) ।सर्लाहीको लालबन्दीस्थित पूर्वपश्चिम राजमार्गसँगै तरकारी बजारको छेवैमा एउटा सानो ठेला उभ्याइएको छ ।...
+          </small>
+        </div>
+      </div>
+
+      <div class="row border-bottom py-2">
+        <div class="col-3 py-2">
+          <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/Jangali-hatti-haatti-pk.jpg?resize=300%2C165&ssl=1" alt="">
+        </div>
+        <div class="col-9 py-2">
+          <h4 class="fw-bold py-1">जङ्गली हात्ती बस्तीमा पसेपछि स्थानीय त्रसित</h4>
+          <small class="fw-bold d-none d-lg-block">बरहथवा । जिल्लाको हरिपुर क्षेत्रका जङ्गली हात्ती बस्ती पसरे बालीनालीमा क्षति पुर्‍याउन थालेपछि स्थानीय त्रसित...</small>
+        </div>
+      </div>
+
+      <div class="row border-bottom py-2">
+        <div class="col-3 py-2">
+          <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/1737190662_aayukta-1200x560-1.jpg?resize=300%2C165&ssl=1" alt="">
+        </div>
+        <div class="col-9 py-2">
+          <h4 class="fw-bold py-1">स्थानीय तह निर्वाचनमा छुट्टाछुट्टै मतपत्र बनाउन प्रस्ताव</h4>
+          <small class="fw-bold d-none d-lg-block">धुलिखेल । आगामी स्थानीय तह निर्वाचनमा प्रमुख र उपप्रमुख, तथा वडा अध्यक्ष र सदस्यका लागि...</small>
+        </div>
+      </div>
+
+      <div class="row border-bottom py-2">
+        <div class="col-3 py-2">
+          <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/dolalghat.jpg?resize=300%2C165&ssl=1" alt="">
+        </div>
+        <div class="col-9 py-2">
+          <h4 class="fw-bold py-1">दोलालघाटस्थित सुनकोशी नदीमा तटबन्ध बनाउन प्रस्ताव</h4>
+          <small class="fw-bold d-none d-lg-block">काभ्रेपलाञ्चोक। काभ्रेपलाञ्चोकको पर्यटकीयस्थल दोलालघाट क्षेत्रलाई दुई नदीबाट सुरक्षित राख्न तटबन्ध निर्माणको प्रस्ताव गरिएको छ ।...</small>
+        </div>
+      </div>
+
+      <div class="row border-bottom py-2">
+        <div class="col-3 py-2">
+          <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/1622586690.1-Tax.jpg?resize=300%2C165&ssl=1" alt="">
+        </div>
+        <div class="col-9 py-2">
+          <h4 class="fw-bold py-1">करको बक्यौता उठाउन घरघरमा पत्र</h4>
+          <small class="fw-bold d-none d-lg-block">चितवन।आन्तरिक राजस्व कार्यालय चितवनले बक्यौता कर उठाउन घरघरमा पत्राचार गर्न थालेको छ । लामो समयदेखि...</small>
+        </div>
+      </div>
+
+    </div>
+    <!-- sambad start -->
+    <div class="col-lg-4 ps-2 my-5 border-start">
+      <h1 class="heading-1"><span>संवाद</span></h1> 
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <img class="w-100" height="200px" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/IMG-20250113-WA00131.jpg?resize=300%2C165&ssl=1">
+        </li>
+        <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black" href="#">कोशी प्रदेश सरकार ‘गेमचेन्जर’ योजना कार्यान्वयनमा तल्लिन छ : मुख्यमन्त्री कार्की</a></li>
+        <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">अन्तर्वार्ता : संविधान संशोधनका नाममा सङ्घीयता र मधेशको अधिकारको प्रश्न उठाउन पाइँदैनः मुख्यमन्त्री सिंह</a></li>
+        <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">साल्ट ट्रेडिङ कर्पोरेसनको १० प्रतिशत नगद लाभांश घोषणा</a></li>
+        <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">नेपाली क्रिकेटरको NPL अनुभव (VIDEO)</a></li>
+        <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">‘विद्यादेवी भण्डारीलाई एमालेले सर्वसम्मत अध्यक्ष बनाउन पर्छ’ (भिडियोसहित)</a></li>
+        <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">अर्थतन्त्र लयमा फर्कँदै छ, यही कार्यकालमा देशले समृद्धितर्फ फड्को मार्नेछ : अर्थमन्त्री पौडेल</a></li>
+      </ul>
+    </div>
+    <!-- sambad end -->
+  </div>
+</section>
+<!-- समसामयिक end -->
+
+<section>
+    <div class="my-2 text-center">
+      <img class="img-fluid" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/12/slogan-banner.jpeg?w=1600&ssl=1" alt="">
+  </div>
+</section>
+
+<!-- khel prasasan estaniya sarokar start -->
+<section>
+  <div class="container">
+    <div class="row">
+      <!-- khel start -->
+      <div class="col-lg-4 ps-2 my-5 border-start border-end">
+        <h1 class="heading-1"><span>खेल</span></h1> 
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <img class="w-100" height="200px" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/kho-ko-nepal-team.jpg?fit=720%2C408&ssl=1" alt="img">
+            <h4 class="fw-bold m-0 pt-2">नेपालको पुरुष टोली पनि खो–खो विश्वकपको फाइनलमा</h4>
+          </li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black" href="#">कोशी प्रदेश सरकार ‘गेमचेन्जर’ योजना कार्यान्वयनमा तल्लिन छ : मुख्यमन्त्री कार्की</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">अन्तर्वार्ता : संविधान संशोधनका नाममा सङ्घीयता र मधेशको अधिकारको प्रश्न उठाउन पाइँदैनः मुख्यमन्त्री सिंह</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">साल्ट ट्रेडिङ कर्पोरेसनको १० प्रतिशत नगद लाभांश घोषणा</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">नेपाली क्रिकेटरको NPL अनुभव (VIDEO)</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">‘विद्यादेवी भण्डारीलाई एमालेले सर्वसम्मत अध्यक्ष बनाउन पर्छ’ (भिडियोसहित)</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">अर्थतन्त्र लयमा फर्कँदै छ, यही कार्यकालमा देशले समृद्धितर्फ फड्को मार्नेछ : अर्थमन्त्री पौडेल</a></li>
+        </ul>
+      </div>
+      <!-- khel end -->
+
+      <!-- prasasan start -->
+      <div class="col-lg-4 ps-2 my-5 border-start border-end">
+        <h1 class="heading-1"><span>प्रशासन</span></h1> 
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <img class="w-100" height="200px" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/trisuli-bus-accident_jOHhkxDcMi_fybh1bJroJ.jpg?fit=720%2C332&ssl=1" alt="img">
+            <h4 class="fw-bold m-0 pt-2">भीमताल बाढी पहिरोमा मृत्यु भएका ३९ परिवारलाई १ लाख राहत</h4>
+          </li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black" href="#">कोशी प्रदेश सरकार ‘गेमचेन्जर’ योजना कार्यान्वयनमा तल्लिन छ : मुख्यमन्त्री कार्की</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">अन्तर्वार्ता : संविधान संशोधनका नाममा सङ्घीयता र मधेशको अधिकारको प्रश्न उठाउन पाइँदैनः मुख्यमन्त्री सिंह</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">साल्ट ट्रेडिङ कर्पोरेसनको १० प्रतिशत नगद लाभांश घोषणा</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">नेपाली क्रिकेटरको NPL अनुभव (VIDEO)</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">‘विद्यादेवी भण्डारीलाई एमालेले सर्वसम्मत अध्यक्ष बनाउन पर्छ’ (भिडियोसहित)</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">अर्थतन्त्र लयमा फर्कँदै छ, यही कार्यकालमा देशले समृद्धितर्फ फड्को मार्नेछ : अर्थमन्त्री पौडेल</a></li>
+        </ul>
+      </div>
+      <!-- prasasan end -->
+
+      <!-- स्थानीय सरोकार start -->
+      <div class="col-lg-4 ps-2 my-5 border-start border-end">
+        <h1 class="heading-1"><span>स्थानीय सरोकार</span></h1> 
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <img class="w-100" height="200px" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/images-11.jpg?fit=281%2C179&ssl=1" alt="img">
+            <h4 class="fw-bold m-0 pt-2">वाग्मती सफाइमा जुट्न थाले महानगरका जनप्रतिनिधि</h4>
+          </li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black" href="#">कोशी प्रदेश सरकार ‘गेमचेन्जर’ योजना कार्यान्वयनमा तल्लिन छ : मुख्यमन्त्री कार्की</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">अन्तर्वार्ता : संविधान संशोधनका नाममा सङ्घीयता र मधेशको अधिकारको प्रश्न उठाउन पाइँदैनः मुख्यमन्त्री सिंह</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">साल्ट ट्रेडिङ कर्पोरेसनको १० प्रतिशत नगद लाभांश घोषणा</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">नेपाली क्रिकेटरको NPL अनुभव (VIDEO)</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">‘विद्यादेवी भण्डारीलाई एमालेले सर्वसम्मत अध्यक्ष बनाउन पर्छ’ (भिडियोसहित)</a></li>
+          <li class="list-group-item py-3"><a class="fw-bold text-decoration-none text-black"  href="#">अर्थतन्त्र लयमा फर्कँदै छ, यही कार्यकालमा देशले समृद्धितर्फ फड्को मार्नेछ : अर्थमन्त्री पौडेल</a></li>
+        </ul>
+      </div>
+      <!-- स्थानीय सरोकार end-->
+    </div>
+  </div>
+</section>
+<!-- khel prasasan estaniya sarokar end -->
+
+<!-- अपराध start -->
+<section>
+  <div class="container">
+    <div class="row">
+      <h1 class="heading-1 py-2"><span>अपराध</span></h1> 
+      <div class="col-lg-3">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/raktachandan.jpg?resize=300%2C165&ssl=1" alt="">
+        <h5 class="fw-bold pt-2">रक्तचन्दन तस्करी गिरोह पुनः सक्रिय, माओवादी नेता पक्राउ</h5>
+        <p>काठमाडौं। शान्ति प्रक्रियापछि रक्तचन्दन तस्करी केही समयका लागि ठप्प भए</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/08/20245137232_1575019532pakrau.jpg?resize=400%2C220&ssl=1" alt="">
+        <h5 class="fw-bold pt-2">सामाजिक सञ्जालको दुरुपयोग गरी चरित्रहत्या गर्ने पक्राउ</h5>
+        <p>काठमाडौँ । सामाजिक सञ्जालको दुरुपयोग गरी चरित्रहत्या गरेको अभियोगमा २</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/Ashika-Tamang.jpg?resize=300%2C165&ssl=1" alt="">
+        <h5 class="fw-bold pt-2">आशिका तामाङ पक्राउ</h5>
+        <p>काठमाडौं । सामाजिक अभियान्ता आशिका तामाङ पक्राउ परेकी छन् ।</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/08/20234045844_raktachandan.jpg?resize=400%2C220&ssl=1" alt="">
+        <h5 class="fw-bold pt-2">काँडाघारीबाट ४ क्विन्टल बढी रक्तचन्दन बरामद</h5>
+        <p>काठमाडौं । काठमाडौंको काँडाघारीबाट ४ सय ६२ किलो रक्तचन्दन बरामद</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- अपराध end -->
+
+<section>
+    <div class="my-3 text-center">
+      <img class="img-fluid" src="https://chakrapath.com/wp-content/uploads/2024/09/Salt-Trading_gif-Final-1.gif" alt="">
+    </div>
+</section>
+
+<!-- चक्रपथ विशेष start -->
+<section>
+  <div class="container py-3 bg-blue">
+    <div class="text-light">
+      <div id="heading-2">
+      <h1 id="heading-2 py-2"><span>चक्रपथ विशेष</span></h1> 
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-lg-7 text-center">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/raktachandan.jpg?fit=1100%2C637&ssl=1" alt="">
+        <h2 class="fw-bold pt-2 text-light">रक्तचन्दन तस्करी गिरोह पुनः सक्रिय, माओवादी नेता पक्राउ</h2>
+        <p class="text-secondary">चक्रपथ</p>
+      </div>
+      <div class="col-lg-5 ps-4">
+        <div class="row border-bottom">
+          <div class="col-5 py-2 ps-0">
+            <img class="w-100" src="https://img.youtube.com/vi/nK2kGaOKN-8/mqdefault.jpg" alt="">
+          </div>
+          <div class="col-7 py-2 ps-0">
+            <p class="fw-bold pt-1 text-light">सीमापार धार्मिक पर्यटन प्रवर्द्धनमा जुट्दै नेपाल–भारत</p>
+            <small class="d-none d-lg-block text-light">काठमाडौँ। सामान्यतः हिउँदमा पानी पर्नु नियमित चक्र नै हो तर पछिल्ला केही वर्षयता त्यो चक्रमा</small>
+
+          </div>
+        </div>
+        <div class="row border-bottom py-2">
+          <div class="col-5 py-2 ps-0">
+            <img class="w-100" src="https://img.youtube.com/vi/5KTj6r-urTo/mqdefault.jpg" alt="">
+          </div>
+          <div class="col-7 py-2">
+            <p class="fw-bold pt-1 text-light">
+              कहिले सम्पन्न होला भक्तपुर–नगरकोट सडक ?</p>
+              <small class="d-none d-lg-block text-light">काठमाडौँ। सामान्यतः हिउँदमा पानी पर्नु नियमित चक्र नै हो तर पछिल्ला केही वर्षयता त्यो चक्रमा</small>
+
+          </div>
+        </div>
+        <div class="row border-bottom py-2">
+          <div class="col-5 pt-2 ps-0">
+            <img class="w-100" src="https://img.youtube.com/vi/0tKELgfCv-M/mqdefault.jpg" alt="">
+          </div>
+          <div class="col-7 py-2">
+            <p class="fw-bold pt-1 text-light">
+              ‘सुक्खा हिउँद र सन्निकट सङ्कट’</p>
+                <small class="d-none d-lg-block text-light">काठमाडौँ। सामान्यतः हिउँदमा पानी पर्नु नियमित चक्र नै हो तर पछिल्ला केही वर्षयता त्यो चक्रमा</small>
+          </div>
+        </div>
+        <a href="#" class="pt-2 text-decoration-none text-light d-block"><span class="border-bottom">थप समाचार <i class="fa-solid fa-arrow-right"></i></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- चक्रपथ विशेष end -->
+
+<!-- सूचना प्रविधि start -->
+<section>
+  <div class="container">
+    <div class="row">
+      <h1 class="heading-1 py-2"><span>सूचना प्रविधि</span></h1> 
+      <div class="col-lg-3">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/social-media-mk.png?resize=300%2C165&ssl=1" alt="">
+        <h5 class="fw-bold pt-2">नयाँ नम्बरबाट फोन र नयाँ ‘आइडी’बाट मेल आउँछ ? सावधान !</h5>
+        <p>काठमाडौँ।तपाईंलाई कुनै नयाँ खालको नम्बरबाट फोन आउने गरेको छ ?</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2025/01/IMG_4291-scaled.jpg?resize=300%2C165&ssl=1" alt="">
+        <h5 class="fw-bold pt-2">सामाजिक सञ्जालको सदुपयोग गर्दा …</h5>
+        <p>नवलपुर (नवलपरासी)। सामाजिक सञ्जालको सदुपयोग गर्न सके सफलता प्राप्त गर्न</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/08/20215033750_tiktok.jpg?resize=400%2C220&ssl=1" alt="">
+        <h5 class="fw-bold pt-2">चीनले अमेरिकी टिकटक मस्कलाई बेच्ने सम्भावना खोज्दै : रिपोर्ट</h5>
+        <p>चिनियाँ अधिकारीहरूले भिडियो–सेयरिङ प्लेटफर्म टिकटकले चीनबाट तत्काल विनिवेश गर्नुपर्ने अमेरिकी</p>
+      </div>
+      <div class="col-lg-3">
+        <img class="w-100" src="https://i0.wp.com/chakrapath.com/wp-content/uploads/2024/08/20232722737_hpv1694093543.jpg?resize=400%2C220&ssl=1" alt="">
+        <h5 class="fw-bold pt-2">कञ्चनपुरका २६ हजार किशोरीलाई ‘एचपिभी’ खोप लगाइने</h5>
+        <p>कञ्चनपुर। पाठेघरको मुखको क्यान्सर रोकथामका लागि कञ्चनपुरका २६ हजार किशोरीलाई</p>
+      </div>
+      <a href="#" class="pt-2 text-decoration-none text-black text-center d-block"><span class="border-bottom border-black">थप समाचार <i class="fa-solid fa-arrow-right"></i></span></a>
+    </div>
+  </div>
+</section>
+<!-- सूचना प्रविधि end -->
+
+<footer>
+  <div class="container">
+    <div class="row align-items-center mt-5 py-2">
+      <div class="col-lg-6">
+        <img src="https://chakrapath.com/wp-content/themes/chakrapath/img/chakrapath-logo.png" alt="img">
+      </div>
+      <div class="col-lg-6">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="row py-4 border text-light">
+      <div class="col-lg-3">
+        <h5 class="fw-bold">राजमोती मिडिया प्रा.लि. द्वारा सञ्चालित</h5>
+        <small class="d-block">सूचना विभाग दर्ता नं:: २१९९/०७७-७८ (अनामनगर, काठमाडौं)</small>
+        <small class="d-block">अध्यक्ष : डेगेन्द्र पाण्डे , सम्पादक : दिनेश घिमिरे</small>
+        <a href="#" class="border text-light px-3">Our Team</a>
+        <small class="d-block">ईमेल : echakrapath@gmail.com</small>
+        <small class="d-block">सम्पर्क : ९८४१७१९४५५</small>
+      </div>
+      <div class="col-lg-3">
+        <ul>
+          <li><a href="#">गृहपृष्‍ठ</a></li>
+            <li><a href="#">अपराध</li>
+            <li><a href="#"></a>बिचार</li>
+            <li><a href="#"></a>अन्तरवार्ता</li>
+            <li><a href="#"></a>अर्थ</li>
+            <li><a href="#"></a>विविध</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3">
+        <ul>
+          <li><a href="#">राजनीति</a></li>
+          <li><a href="#">विश्व</li>
+            <li><a href="#"></a>खेल</li>
+            <li><a href="#"></a>चक्रपथ संवाद</li>
+            <li><a href="#"></a>कला/साहित्य</li>
+            <li><a href="#"></a>सम्पादकीय</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3">
+        <ul>
+          <li><a href="#">प्रशासन</a></li>
+          <li><a href="#">सूचना प्रविधि</li>
+          <li><a href="#"></a>स्वास्थ्य, शिक्षा</li>
+          <li><a href="#"></a>अध्यात्म/दर्शन</li>
+          <li><a href="#"></a>समसामयिक</li>
+          <li><a href="#"></a>रोचक खबर</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<section class="last container">
+  <div class="row">
+    <div class="col-lg-4 ps-0">
+    <ul class="d-flex align-items-center text-secondary ps-0">
+      <li class="list-style-none">BOUT</li> 
+      <li class="list-style-none">ADVERTISEMENT</li> 
+      <li class="list-style-none">CONTACT</li> 
+      <li class="list-style-none">TEAM</li>
+    </ul>
+    </div>
+    <div class="col-lg-4">
+      <small class="text-secondary">©2025 राजमोती मिडिया प्रा.लि.</small>
+    </div>
+    <div class="col-lg-4">
+      <small class="text-secondary">Designed & Developed by:Appharu.com</small>
+    </div>
+  </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
